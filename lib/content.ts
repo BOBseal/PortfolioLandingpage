@@ -15,7 +15,7 @@ export const portfolioContent = {
     title: "About Me", 
     description: "I'm a passionate Full-Stack and Web3 developer with expertise in blockchain infrastructure, DeFi protocols, smart contract engineering, and scalable web applications. Over the past few years, I've built products across the Web3 ecosystem including tokenized systems, trading tools, automation platforms, and decentralized applications while actively contributing to open-source development.", highlights: [ "Specialized in React, Next.js, TypeScript, Solidity, Foundry, and Web3 integrations", "Experience building DeFi protocols, RWAs, Stablecoin systems, and blockchain automation tools", "Strong backend and infrastructure experience with VPS servers, APIs, Firebase, and cloud platforms", "Built scalable platforms serving thousands of active users and communities", ],
     stats: [
-      { value: "7+", label: "Projects Built" },
+      { value: "13+", label: "Projects Built" },
       { value: "4+", label: "Years Coding Experience" },
     ],
     cta: "Let's Build the Future of Web3",
@@ -215,8 +215,8 @@ export const portfolioContent = {
           "A Simple Omni-Chain Stablecoin with Collateralized Debt Position (CDP) Model, allowing users to mint BobUSD by locking up collateral assets, with dynamic interest rates and robust liquidation mechanisms.",
         image: "",
         tech: ["Foundry", "Solidity", "Chainlink Feeds" , "LayerZero"],
-        github: "https://github.com/ReyKan-KP/ScrollForge",
-        live: "https://scroll-forge.vercel.app/",
+        github: "https://github.com/BOBseal/cdp-stablecoin",
+        live: "https://github.com/BOBseal/cdp-stablecoin",
         featured: true,
       },
       {
