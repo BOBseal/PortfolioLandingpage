@@ -130,17 +130,6 @@ export function HeroSection() {
                   {portfolioContent.ui.buttons.viewProjects}
                 </Button>
 
-                <Button
-                  asChild
-                  variant="secondary"
-                  size="lg"
-                  className="rounded-[2rem] bg-secondary hover:bg-secondary/90 text-secondary-foreground px-12 py-6 font-black shadow-brutal hover:shadow-xl transition-all duration-500 hover:scale-110 hover:rotate-1 border-4 border-foreground text-lg"
-                >
-                  <a href={hero.mainPortfolioUrl} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="w-6 h-6 mr-3 animate-bounce" />
-                    {portfolioContent.ui.buttons.mainPortfolio}
-                  </a>
-                </Button>
               </div>
 
               <div className="flex gap-8 justify-center lg:justify-start">
