@@ -179,7 +179,7 @@ export const portfolioContent = {
         id: 1,
         title: "BOTS OF BITCOIN",
         description:
-          "Bots of Bitcoin mashes up NFTs and Bitcoin DeFi in style — tap into BTC-Fi with cutting-edge Yield Vaults, Index Fund Vaults, and smooth Swaps. Collect from 10,000 one-of-a-kind dynamic NFTs that can transform their looks!",
+          "Bots of Bitcoin mashes up NFTs and Bitcoin DeFi in style ,tap into BTC-Fi with cutting-edge Yield Vaults, Index Fund Vaults, and smooth Swaps. Collect from 10,000 one-of-a-kind dynamic NFTs that can transform their looks!",
         image: "/BotsOfBtc.jpg",
         tech: ["Next.js", "TypeScript", "Solidity", "Foundry", "Viem" , "API3 Feeds" , "Wagmi" , "RainbowKit"],
         github: "https://github.com/BOBseal/botsofbtc-landingpage",
