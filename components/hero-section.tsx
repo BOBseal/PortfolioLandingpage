@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Github, Linkedin, Mail, MapPin, Twitter, Sparkles, ExternalLink } from "lucide-react"
+import { Github, Linkedin, Send,Mail, MapPin, Twitter, Sparkles, ExternalLink } from "lucide-react"
 import { portfolioContent } from "@/lib/content"
 import { useEffect, useState } from "react"
 
@@ -161,12 +161,12 @@ export function HeroSection() {
                   <Linkedin className="w-8 h-8 text-foreground group-hover:text-primary transition-colors duration-500" />
                 </a>
                 <a
-                  href={hero.twitter}
+                  href={hero.telegram}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-5 bg-card rounded-[2rem] hover:bg-muted transition-all duration-500 hover:scale-110 hover:-rotate-2 group shadow-brutal hover:shadow-xl border-4 border-foreground hover:border-primary"
                 >
-                  <Twitter className="w-8 h-8 text-foreground group-hover:text-primary transition-colors duration-500" />
+                  <Send className="w-8 h-8 text-foreground group-hover:text-primary transition-colors duration-500" />
                 </a>
               </div>
             </div>
